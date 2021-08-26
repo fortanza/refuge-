@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Lionburg";
+    src: url("/fonts/Lionburg.ttf") format("ttf"),
+      
+   }
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -8,20 +14,13 @@ body {
 
 .heading-primary {
     color: $color-white;
+    font-family: "Lionburg", sans-serif;
     text-transform: uppercase;
 
     backface-visibility: hidden;
     margin-bottom: 6rem;
 
-    &--main {
-        display: block;
-        font-size: 6rem;
+    font-size: 6rem;
         font-weight: 400;
         letter-spacing: 3.5rem;
-    
-        animation-name: moveInLeft;
-        animation-duration: 1s;
-        animation-timing-function: ease-out;
-        
-    }
 }
