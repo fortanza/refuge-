@@ -1,45 +1,159 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.comp.css">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <title>Le ranch de l'espoir</title>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>01</span>Notre association</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>02</span>Your benfits</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"
+              ><span>03</span>Popular tours</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>04</span>Stories</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link"><span>05</span>Book now</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <header class="header">
-        <div class="header__logo-box">
-            <img src="img/logo.png" alt="logo" class="header__logo">
-        </div>
-        <div class="bg-video">
-            <video class="bg-video__content" autoplay muted loop>
-                <source src="img/ranch.mp4" type="video/mp4">
-                Your browser is not supported!
-            </video>
-        </div>
-        <div class="header__text-box">
-            <h1 class="heading-primary">
-                Le Ranch de l'espoir
-            </h1>
-            <a href="#" class="btn btn--white">Visiter notre domaine</a>
-        </div>
+      <div class="header__logo-box">
+        <img src="img/logo.png" alt="logo" class="header__logo" />
+      </div>
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="img/ranch.mp4" type="video/mp4" />
+          Your browser is not supported!
+        </video>
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">Le Ranch de l'espoir</h1>
+        <a href="#" class="btn btn--white btn--animated"
+          >Visiter notre domaine</a
+        >
+      </div>
     </header>
     <main>
-        <section class="section-about">
-            <div class="u-center-text u-margin-bottom-big">
-                <h2 class="heading-secondary">
-                    Notre association
-                </h2>
-                <p class="paragraph">
-                    Créé en septembre 1995 par quelques passionnés des animaux, le ranch de l'Espoir se positionne comme Le portail de l'adoption d’animaux de compagnie en France. Le concept est simple : fédérer les annonces de tous les organismes œuvrant dans le secours aux animaux pour proposer au public un moteur de recherche unique qui leur permettra de trouver leur futur compagnon.
-                    <br>
-                    Le but : promouvoir l’adoption en France en offrant aux particuliers, comme aux associations, une plate-forme unique de mise en relation. Seconde Chance fédère déjà plus de mille associations et espére pouvoir continuer à augmenter le nombre de refuges et d’animaux présentés sur le site.
-                </p>
-            </div>
-        </section>
-    </main>
-</body>
+      <section class="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Notre association</h2>
+        </div>
+        <div class="row container">
+          <div class="row__paragraph">
+            <p class="paragraph">
+              Créé en septembre 1995 par quelques passionnés des animaux, le
+              ranch de l'Espoir œuvre en faveur des animaux et de la protection
+              animale. C’est un lieu de sauvetage, havre de douceur et de paix
+              pour les animaux exotiques, sauvages et domestiques.
+            </p>
+            <p class="paragraph paragraph__margin-bottom">
+              Spécialisé dans l’accueil d’animaux blessés ou abandonnés, se
+              trouve un havre de paix pour les nombreux animaux et oiseaux
+              sauvages qui y trouvent asile. Le fondateur du
+              <b>Ranch de l’espoir</b> est John Doe, marié et père de famille…
+              mais des centaines d’autres enfants sont aussi un peu les « siens
+              ». Le <b>Ranch de l’espoir</b> étant pour eux, en quelque sorte,
+              leur seconde famille. Dès son adolescence, John Doe avait déjà
+              recueilli et sauvé des oiseaux tombés du nid, une chouette et un
+              héron blessés, ainsi qu’un renardeau amputé par un « piège à
+              mâchoires ». Dans la maison et le jardin de ses parents, il avait
+              créé une véritable « infirmerie » et un mini-refuge où il veillait
+              sur tous ses protégés. Cette passion de Christian fût vite
+              contagieuse : il la communiqua à la plupart de ses copains
+              d’école. Plus tard, il créa avec eux à Marly Gomont, l’association
+              <b>« Vie Animal »</b>, qui fit très rapidement des émules parmi
+              les jeunes de toute la région. De mois en mois, le
+              <b>Ranch de l’espoir</b> animé par John Doe et Vie Animal
+              recueillaient de plus en plus d’animaux blessés, mutilés,
+              persécutés : ce qui les amena tout naturellement à partir en
+              guerre contre les préjugés, les superstitions, et les destructions
+              dont étaient victimes bien des espèces sauvages. A l’aide
+              d’expositions, de conférences dans les écoles, des campagnes
+              d’information et de sensibilisation par voie de presse,
+              <b>Ranch de l’espoir</b> gagna très vite une grande notoriété.
+              L’influence de ces jeunes si déterminés, était évidente : les
+              persécutions des rapaces et autres animaux « mal aimés »
+              diminuaient. Néanmoins, le modeste
+              <b>Ranch de l’espoir</b>
+              hébergeait des rescapés de plus en plus nombreux, notamment des
+              animaux abandonnés par une ménagerie en faillite : singes, loups,
+              ours… et même un lion ! Maintenant décédé , John Doe veuille sur
+              nous. C’est sa fille Jane, qui a repris la direction du Ranch de
+              L’espoir et du Centre de Sauvegarde
+            </p>
+          </div>
+          <div class="row__photo">
+              <img src="img/john-doe.png" alt="John Doe">
+          </div>
+        </div>
 
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Notre mission</h2>
+        </div>
+
+        <div class="row container">
+          <p class="paragraph">
+            Aujourd’hui, <b>« Vie Animal »</b> continue et amplifie sa mission.
+            Au delà de l’accueil et des soins des animaux, les objectifs de
+            <b>« Vie Animal »</b> se définissent autour de trois pôles d’actions
+            : la protection animale, la sensibilisation et l’éducation du
+            public, ainsi que la réinsertion sociale pour des jeunes en quête
+            d’intégration. Les actions de protection animale menées par
+            l’association consistent à accueillir et soigner des animaux
+            sauvages, exotiques et domestiques. Il s’agit de prendre en charge
+            des animaux de la faune locale, trouvés blessés dans la nature, de
+            les soigner et le cas échéant, de les relâcher dans leur milieu
+            naturel. Les animaux exotiques ou domestiques proviennent de
+            différents milieux. Ils étaient devenus soit trop encombrants pour
+            leurs anciens propriétaires, soit saisis par les autorités publiques
+            (douanes, gendarmerie, police, DDSPP, ONCFS,…)
+            <b>« Vie Animal »</b>sensibilise le public en le mettant en face
+            d’une réalité insoupçonnée : celle qui dévoile le nombre important
+            d’animaux exotiques vivant dans un milieu qui ne leur est pas
+            naturel. L’éducation sur la zoologie des espèces présentes au Refuge
+            est développée sur des panneaux informatifs. D’autres supports,
+            comme le livret pédagogique, sont distribués aux professeurs des
+            écoles. De plus, des expositions ou des conférences sont
+            ponctuellement organisées. D’autres vecteurs d’informations (médias,
+            internet…) sont plus largement utilisés également. Depuis toujours,
+            l’association joue un rôle social en permettant à des jeunes, en
+            quête d’intégration, de s’impliquer dans une activité utile, et à
+            responsabilité. Autrefois plus informelles, ces actions sont
+            aujourd’hui plus larges et cadrées : le chantier d’insertion
+            permettant l’emploi et le suivi social de personnes bénéficiaires du
+            RSA, l’accueil de jeunes mineurs contraints à des peines de
+            substitution, action menée avec les éducateurs nommés par les
+            tribunaux.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
